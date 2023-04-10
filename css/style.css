@@ -8,6 +8,7 @@
 main{
     flex-grow: 1;
     flex-wrap: wrap;
+    min-height: 100vh;
 }
 
 body{
@@ -22,8 +23,8 @@ body{
     align-items: center;
 }
 
-.logo{
-    flex-grow: 2;
+#logo{
+    width:12%;
 }
 
 .cabecalho nav{
@@ -56,7 +57,6 @@ body{
 .conteudo{
     display: flex;
     justify-content: space-between;
-    padding-top: 5%;
 }
 
 .texto{
@@ -77,9 +77,8 @@ body{
 
  footer{
     display: flex;
-    position: fixed;
     min-width: 100%;
-    bottom: 0;
+    margin-top: auto;
 }
 
 #leia_mais{
@@ -113,8 +112,8 @@ body{
     margin: 5% 10%;
     border-radius: 15px;
     box-shadow: 18px 13px 30px -7px rgba(0,0,0,0.53);
--webkit-box-shadow: 18px 13px 30px -7px rgba(0,0,0,0.53);
--moz-box-shadow: 18px 13px 30px -7px rgba(0,0,0,0.53);
+    -webkit-box-shadow: 18px 13px 30px -7px rgba(0,0,0,0.53);
+    -moz-box-shadow: 18px 13px 30px -7px rgba(0,0,0,0.53);
 }
 .challenge img{
     width: 20%;
@@ -159,6 +158,40 @@ body{
     font-size: 15px;
 }
 .challenge button:hover{
+    transform: translateY(-10%);
+}
+
+.organograma{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
+    background-color: #f2f2f2;
+    padding:5%;
+    margin: 5% 10%;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: 18px 13px 30px -7px rgba(0,0,0,0.53);
+    -webkit-box-shadow: 18px 13px 30px -7px rgba(0,0,0,0.53);
+    -moz-box-shadow: 18px 13px 30px -7px rgba(0,0,0,0.53);
+}
+
+
+.organograma button{
+    background-color: #43B0F1;
+    padding: 1%;
+    border-radius: 10px;
+    border: none;
+    min-width: 15vh;
+}
+
+.organograma button a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #f2f2f2;
+}
+
+.organograma button:hover{
     transform: translateY(-10%);
 }
 
