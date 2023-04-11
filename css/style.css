@@ -16,40 +16,14 @@ body {
 }
 
 .cabecalho {
-  display: flex;
-  justify-content: space-between;
-  background-color: #fff;
-  max-height: 15vh;
+  display: flex;  
+  background-color: #fff  ;
+  max-height: 12vh;
   align-items: center;
 }
 
 #logo {
   width: 12%;
-}
-
-.cabecalho nav {
-  flex-grow: 1;
-  min-width: 640px;
-}
-
-.cabecalho nav ul {
-  list-style: none;
-  display: flex;
-}
-
-.cabecalho nav li {
-  flex-grow: 1;
-}
-
-.cabecalho nav a {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-}
-
-.cabecalho nav a:hover {
-  color: #59d4d9;
-  transition: 0.3s;
 }
 
 /* HOME: CONTEUDO DA SECTION */
@@ -61,6 +35,11 @@ body {
 .texto {
   flex-grow: 1;
   margin: 5%;
+}
+
+.texto p{
+  margin-top: 5%;
+  font-size: 18px;
 }
 
 .img-home {
